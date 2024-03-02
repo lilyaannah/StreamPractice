@@ -4,10 +4,13 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Пункт с массивом:  ");
         ///////
         ArrayList<Integer> arrayList=new ArrayList<>();
-       // arrayStream(arrayList);
+        arrayStream(arrayList);
         ///////
+
+        System.out.println("Пункт со списками: ");
      List<Phone> phonesList = new LinkedList<>();
      fillingList(phonesList);
 
